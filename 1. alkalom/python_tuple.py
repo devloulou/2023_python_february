@@ -1,7 +1,7 @@
 """
 Összetett adattípusok - Tuple
 
-A tuple egy immutable adattípus és iterálható adattípus
+A tuple egy immutable adattípus és iterálható adattípus - iterable object
 
 my_tuple = (10, "Ricsi", 123, 4324, "Karcsi")
 

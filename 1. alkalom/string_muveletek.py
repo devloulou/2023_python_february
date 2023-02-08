@@ -90,3 +90,11 @@ from string import Template
 my_template = Template("$name vagyok és $age éves")
 print(my_template.substitute(name=name, age=age))
 
+
+my_str = ("Ricsi",)
+
+my_str[0] = "L"
+
+print(my_str[0])
+
+print()
