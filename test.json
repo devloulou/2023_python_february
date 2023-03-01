@@ -1,0 +1,21 @@
+{
+    "vezetekNev": "Kovács",
+    "keresztNev": "János",
+    "kor": 30,
+    "cim": {
+        "utcaHazszam": "2. utca 21.",
+        "varos": "New York",
+        "allam": "NY",
+        "iranyitoSzam": "10021"
+    },
+    "telefonSzam": [
+        {
+            "tipus": "otthoni",
+            "szam": "212 555-1234"
+        },
+        {
+            "tipus": "fax",
+            "szam": "646 555-4567"
+        }
+    ]
+}
