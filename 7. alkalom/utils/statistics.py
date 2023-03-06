@@ -12,7 +12,7 @@ def page_num(data: str) -> int:
 
 def min_max(data: str) -> dict:
     temp = [item for item in data.split('\n') if len(item) > 0]
-    print(max(temp, key=len))
+    # print(max(temp, key=len))
     # print(data.split('\n').index(max(temp, key=len))+1)
     
     # print(sorted(data.split('\n'), key=len, reverse=True)[0])
@@ -41,7 +41,7 @@ def most_common_five_words(data):
     temp = [item for item in temp if len(item) >= 5]
 
     c = Counter(temp)
-    print(c.most_common(10))
+    return c.most_common(5)
 
 
 if __name__ == '__main__':
@@ -52,4 +52,12 @@ if __name__ == '__main__':
 
     pn = page_num(data)
     mn = min_max(data)
-    most_common_five_words(data)
+    mc = most_common_five_words(data)
+
+    statistics = {
+        "page_num": pn,
+        "min_max": mn,
+        "most_common_words": mc
+    }
+
+    print(statistics)
