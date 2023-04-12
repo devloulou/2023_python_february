@@ -38,7 +38,7 @@ my_list.remove(50)
 my_num = my_list.pop(1)
 
 # del -es törlés
-del my_list[-1]
+del my_list[-1], my_list[1]
 # del my_list
 
 # print(f"my_num: {my_num}")
@@ -138,7 +138,12 @@ print(id(my_tuple[-1][0]))
 
 
 
+my_dict = {'kulcs': "érték"}
+my_dict2 = {"alma": "fa"}
 
+my_dict3 = my_dict | my_dict2
+
+print(my_dict3)
 
 
 
