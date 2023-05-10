@@ -41,7 +41,7 @@ class DatabaseHandler:
     
     
 if __name__ == '__main__':
-    url = "postgresql://postgres:postgres@localhost/postgres"
+    url = "postgresql://postgres:postgres@localhost:5432/postgres"
     test = DatabaseHandler(url)
 
     test.run_query('create table python_test(name text)')
